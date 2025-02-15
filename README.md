@@ -1,4 +1,4 @@
-# Project Name: User Registration and Login System
+# User Registration and Login System
 
 This project provides an API for user registration and login with JWT authentication. Users can register with their phone number, password, and membership type (Silver, Gold, Diamond). After registration, they can log in to receive JWT tokens for secure authentication.
 
@@ -15,7 +15,7 @@ Follow these steps to set up the project locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/yourproject.git
+   https://github.com/bhimpdrajbanshi/jwt-authentication-django-rest-framework.git
 
 2. Create a virtual environment
    ```bash
@@ -32,7 +32,7 @@ Follow these steps to set up the project locally:
 
 ## API Endpoints
 
-1. User Registration
+### User Registration
 
     Endpoint: POST /api/register
 
@@ -47,7 +47,7 @@ Follow these steps to set up the project locally:
     }
 
 
-2. User Login
+### User Login
 
     Endpoint: POST /api/login
 
