@@ -39,11 +39,11 @@ Endpoint: POST /api/register
 Description: This endpoint allows users to register with their phone number, password, and membership type.
 
 Request Body:
-    ```bash
+
     {
-    "phone_number": "98xxxxxxxx",
-    "password": "123",
-    "membership_type": "Diamond"
+        "phone_number": "98xxxxxxxx",
+        "password": "123",
+        "membership_type": "Diamond"
     }
 
 
@@ -55,8 +55,7 @@ Description: This endpoint allows users to login with their username and passwor
 
 Request Body:
 
-    ```bash
     {
-    "phone_number": "98xxxxxxxx",
-    "password": "123"
+        "phone_number": "98xxxxxxxx",
+        "password": "123"
     }
