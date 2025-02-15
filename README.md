@@ -34,11 +34,11 @@ Follow these steps to set up the project locally:
 
 ### User Registration
 
-    Endpoint: POST /api/register
+Endpoint: POST /api/register
 
-    Description: This endpoint allows users to register with their phone number, password, and membership type.
+Description: This endpoint allows users to register with their phone number, password, and membership type.
 
-    Request Body:
+Request Body:
     ```bash
     {
     "phone_number": "98xxxxxxxx",
@@ -49,11 +49,11 @@ Follow these steps to set up the project locally:
 
 ### User Login
 
-    Endpoint: POST /api/login
+Endpoint: POST /api/login
 
-    Description: This endpoint allows users to login with their username and password to receive JWT tokens.
+Description: This endpoint allows users to login with their username and password to receive JWT tokens.
 
-    Request Body:
+Request Body:
 
     ```bash
     {
